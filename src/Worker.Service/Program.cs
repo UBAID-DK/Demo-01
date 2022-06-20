@@ -13,7 +13,7 @@ namespace Worker.Service
 		{
 			CreateHostBuilder(args).Build().Run();
 		}
-               // demo project for test purpose
+               // demo project
 		public static IHostBuilder CreateHostBuilder(string[] args) =>
 			Host.CreateDefaultBuilder(args)
 				.ConfigureServices((hostContext, services) =>

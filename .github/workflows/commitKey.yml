@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: e-conomic/mergebot@v1
         with:
-          ssh-key: "${{ secrets.COMMIT_KEY }}"
+          ssh-key: "${{ secrets.SSH_KEY }}"
           reviewers: ${{ secrets.PLATFORM_REVIEWERS }}
           semver_match: minors
           MERGE_METHOD: rebase
